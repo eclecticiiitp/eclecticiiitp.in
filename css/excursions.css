@@ -1,0 +1,129 @@
+body {
+	background-image: linear-gradient(rgb(43, 77, 130), rgb(40, 144, 172));
+}
+.main_content {
+	padding: 2rem 0;
+}
+.excursion {
+	position: relative;
+}
+.carousel-inner img {
+	width: 80% !important;
+	margin: auto;
+	float: right;
+}
+.carouselinfo {
+	background: #fde371;
+	background-size: 40%;
+	position: absolute;
+	top: 0%;
+	left: 0;
+	color: #ffffff;
+	width: 30%;
+	height: 100%;
+	margin: 0;
+	padding: 2em 1em;
+	color: black;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+}
+.carouselinfo::-webkit-scrollbar-thumb {
+	background: #ca1c70;
+}
+.carouselinfo::-webkit-scrollbar-track {
+	background: rgb(36, 20, 56);
+}
+.carouselinfo::-webkit-scrollbar {
+	width: 10px;
+}
+.carousel-indicators li {
+	background-color: #000;
+	opacity: 0.3;
+}
+
+.carousel-control-prev {
+	left: 30%;
+	opacity: 0.8;
+}
+.carouselinfo h3 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+	position: absolute;
+	color: #000000;
+	font-size: 150%;
+	line-height: 2em;
+	min-width: 300px;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transform: rotate(-90deg) translateX(5%);
+	top: 50%;
+	left: -3.85em;
+	-webkit-transform: rotate(-90deg) translateX(5%);
+	-moz-transform: rotate(-90deg) translateX(5%);
+	-ms-transform: rotate(-90deg) translateX(5%);
+	-o-transform: rotate(-90deg) translateX(5%);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.carouselinfo p {
+	padding-left: 20%;
+	margin: 0;
+	font-weight: 300;
+	word-spacing: 0.1rem;
+	line-height: 2;
+	font-size: 1.05em;
+}
+.explanation {
+	height: 100%;
+	overflow: auto;
+}
+.one {
+	background-color: #9e1b5a;
+	/* background-color: #6d174f; */
+	right: 0;
+}
+.carouselinfo.one::-webkit-scrollbar-thumb {
+	background: #ffde4e;
+}
+.carouselinfo.one::-webkit-scrollbar-track {
+	background: rgb(36, 20, 56);
+}
+.carouselinfo.one::-webkit-scrollbar {
+	width: 10px;
+}
+.one h3,
+.one p {
+	color: #ffffff;
+}
+@media screen and (max-width: 992px) {
+	.carousel-inner img {
+		width: 100% !important;
+		margin: auto;
+		float: none;
+	}
+	.carouselinfo {
+		position: relative;
+		display: block;
+		width: 100%;
+		transform: none;
+	}
+	.carouselinfo h3 {
+		position: relative;
+		top: unset;
+		padding: 0;
+		left: 0;
+		-webkit-transform: rotate(-0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+	}
+	.carouselinfo p {
+		padding: 1rem 1rem;
+	}
+	.carousel-control-prev {
+		left: 0;
+	}
+}

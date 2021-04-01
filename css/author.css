@@ -1,0 +1,16 @@
+.auth_img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 100%;
+	max-width: 100%;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 16px rgba(0, 0, 0, 0.23);
+}
+@media only screen and (max-width: 768px) {
+	.auth_img {
+		position: initial;
+		transform: none;
+		max-height: 50vh;
+	}
+}
